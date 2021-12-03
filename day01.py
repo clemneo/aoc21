@@ -18,5 +18,5 @@ def slidingwindow(file):
         total+=1
   return total
 
-# print(increases('day01.txt'))
-print(slidingwindow('day01.txt'))
+# print(increases('input/day01.txt'))
+print(slidingwindow('input/day01.txt'))

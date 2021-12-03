@@ -31,7 +31,7 @@ def update(word, num, horizontal, depth):
     depth -= num
   return horizontal, depth
 
-info = trackposdepth('day02.txt')
+info = trackposdepth('input/day02.txt')
 print('Horizontal: ', info[0])
 print('Depth:      ', info[1])
 print('Product:    ', info[0]*info[1])
