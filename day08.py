@@ -1,6 +1,3 @@
-import pprint
-pp = pprint.PrettyPrinter()
-
 def open_file(file):
   with open(file, 'r+') as f:
     lines = f.readlines()
