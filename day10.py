@@ -69,5 +69,5 @@ def solver(part):
     total_score.sort()
     return total_score[len(total_score)/2]
 
-print "Part 1: ", solver(1)
-print "Part 2: ", solver(2)
+print("Part 1: ", solver(1))
+print("Part 2: ", solver(2))
